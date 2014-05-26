@@ -7,6 +7,7 @@
 //
 
 #import "ptfAppDelegate.h"
+#import "ptfViewController.m"
 
 @implementation ptfAppDelegate
 
@@ -14,6 +15,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    ptfViewController *view = [[ptfViewController alloc]init];
+    self.window.rootViewController = view;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
