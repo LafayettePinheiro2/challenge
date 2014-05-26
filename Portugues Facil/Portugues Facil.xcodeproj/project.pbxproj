@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE82802D1933D70600A7B8FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE82802C1933D70600A7B8FD /* Foundation.framework */; };
+		CE82802F1933D70600A7B8FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE82802E1933D70600A7B8FD /* CoreGraphics.framework */; };
+		CE8280311933D70600A7B8FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8280301933D70600A7B8FD /* UIKit.framework */; };
+		CE8280371933D70600A7B8FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE8280351933D70600A7B8FD /* InfoPlist.strings */; };
+		CE8280391933D70600A7B8FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8280381933D70600A7B8FD /* main.m */; };
+		CE82803D1933D70600A7B8FD /* ptfAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82803C1933D70600A7B8FD /* ptfAppDelegate.m */; };
+		CE82803F1933D70600A7B8FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE82803E1933D70600A7B8FD /* Images.xcassets */; };
+		CE8280461933D70600A7B8FD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8280451933D70600A7B8FD /* XCTest.framework */; };
+		CE8280471933D70600A7B8FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE82802C1933D70600A7B8FD /* Foundation.framework */; };
+		CE8280481933D70600A7B8FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8280301933D70600A7B8FD /* UIKit.framework */; };
+		CE8280501933D70600A7B8FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE82804E1933D70600A7B8FD /* InfoPlist.strings */; };
+		CE8280521933D70600A7B8FD /* Portugues_FacilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8280511933D70600A7B8FD /* Portugues_FacilTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE8280491933D70600A7B8FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8280211933D70600A7B8FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8280281933D70600A7B8FD;
+			remoteInfo = "Portugues Facil";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE8280291933D70600A7B8FD /* Portugues Facil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Portugues Facil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE82802C1933D70600A7B8FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE82802E1933D70600A7B8FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE8280301933D70600A7B8FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE8280341933D70600A7B8FD /* Portugues Facil-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Portugues Facil-Info.plist"; sourceTree = "<group>"; };
+		CE8280361933D70600A7B8FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE8280381933D70600A7B8FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE82803A1933D70600A7B8FD /* Portugues Facil-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Portugues Facil-Prefix.pch"; sourceTree = "<group>"; };
+		CE82803B1933D70600A7B8FD /* ptfAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ptfAppDelegate.h; sourceTree = "<group>"; };
+		CE82803C1933D70600A7B8FD /* ptfAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ptfAppDelegate.m; sourceTree = "<group>"; };
+		CE82803E1933D70600A7B8FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE8280441933D70600A7B8FD /* Portugues FacilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Portugues FacilTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8280451933D70600A7B8FD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CE82804D1933D70600A7B8FD /* Portugues FacilTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Portugues FacilTests-Info.plist"; sourceTree = "<group>"; };
+		CE82804F1933D70600A7B8FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE8280511933D70600A7B8FD /* Portugues_FacilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Portugues_FacilTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8280261933D70600A7B8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE82802F1933D70600A7B8FD /* CoreGraphics.framework in Frameworks */,
+				CE8280311933D70600A7B8FD /* UIKit.framework in Frameworks */,
+				CE82802D1933D70600A7B8FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8280411933D70600A7B8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8280461933D70600A7B8FD /* XCTest.framework in Frameworks */,
+				CE8280481933D70600A7B8FD /* UIKit.framework in Frameworks */,
+				CE8280471933D70600A7B8FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8280201933D70600A7B8FD = {
+			isa = PBXGroup;
+			children = (
+				CE8280321933D70600A7B8FD /* Portugues Facil */,
+				CE82804B1933D70600A7B8FD /* Portugues FacilTests */,
+				CE82802B1933D70600A7B8FD /* Frameworks */,
+				CE82802A1933D70600A7B8FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE82802A1933D70600A7B8FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8280291933D70600A7B8FD /* Portugues Facil.app */,
+				CE8280441933D70600A7B8FD /* Portugues FacilTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE82802B1933D70600A7B8FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE82802C1933D70600A7B8FD /* Foundation.framework */,
+				CE82802E1933D70600A7B8FD /* CoreGraphics.framework */,
+				CE8280301933D70600A7B8FD /* UIKit.framework */,
+				CE8280451933D70600A7B8FD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8280321933D70600A7B8FD /* Portugues Facil */ = {
+			isa = PBXGroup;
+			children = (
+				CE82803B1933D70600A7B8FD /* ptfAppDelegate.h */,
+				CE82803C1933D70600A7B8FD /* ptfAppDelegate.m */,
+				CE82803E1933D70600A7B8FD /* Images.xcassets */,
+				CE8280331933D70600A7B8FD /* Supporting Files */,
+			);
+			path = "Portugues Facil";
+			sourceTree = "<group>";
+		};
+		CE8280331933D70600A7B8FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE8280341933D70600A7B8FD /* Portugues Facil-Info.plist */,
+				CE8280351933D70600A7B8FD /* InfoPlist.strings */,
+				CE8280381933D70600A7B8FD /* main.m */,
+				CE82803A1933D70600A7B8FD /* Portugues Facil-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE82804B1933D70600A7B8FD /* Portugues FacilTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8280511933D70600A7B8FD /* Portugues_FacilTests.m */,
+				CE82804C1933D70600A7B8FD /* Supporting Files */,
+			);
+			path = "Portugues FacilTests";
+			sourceTree = "<group>";
+		};
+		CE82804C1933D70600A7B8FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE82804D1933D70600A7B8FD /* Portugues FacilTests-Info.plist */,
+				CE82804E1933D70600A7B8FD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8280281933D70600A7B8FD /* Portugues Facil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8280551933D70600A7B8FD /* Build configuration list for PBXNativeTarget "Portugues Facil" */;
+			buildPhases = (
+				CE8280251933D70600A7B8FD /* Sources */,
+				CE8280261933D70600A7B8FD /* Frameworks */,
+				CE8280271933D70600A7B8FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Portugues Facil";
+			productName = "Portugues Facil";
+			productReference = CE8280291933D70600A7B8FD /* Portugues Facil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE8280431933D70600A7B8FD /* Portugues FacilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8280581933D70600A7B8FD /* Build configuration list for PBXNativeTarget "Portugues FacilTests" */;
+			buildPhases = (
+				CE8280401933D70600A7B8FD /* Sources */,
+				CE8280411933D70600A7B8FD /* Frameworks */,
+				CE8280421933D70600A7B8FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE82804A1933D70600A7B8FD /* PBXTargetDependency */,
+			);
+			name = "Portugues FacilTests";
+			productName = "Portugues FacilTests";
+			productReference = CE8280441933D70600A7B8FD /* Portugues FacilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8280211933D70600A7B8FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ptf;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Lafayette Pinheiro";
+				TargetAttributes = {
+					CE8280431933D70600A7B8FD = {
+						TestTargetID = CE8280281933D70600A7B8FD;
+					};
+				};
+			};
+			buildConfigurationList = CE8280241933D70600A7B8FD /* Build configuration list for PBXProject "Portugues Facil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE8280201933D70600A7B8FD;
+			productRefGroup = CE82802A1933D70600A7B8FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8280281933D70600A7B8FD /* Portugues Facil */,
+				CE8280431933D70600A7B8FD /* Portugues FacilTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8280271933D70600A7B8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8280371933D70600A7B8FD /* InfoPlist.strings in Resources */,
+				CE82803F1933D70600A7B8FD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8280421933D70600A7B8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8280501933D70600A7B8FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8280251933D70600A7B8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8280391933D70600A7B8FD /* main.m in Sources */,
+				CE82803D1933D70600A7B8FD /* ptfAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8280401933D70600A7B8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8280521933D70600A7B8FD /* Portugues_FacilTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE82804A1933D70600A7B8FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8280281933D70600A7B8FD /* Portugues Facil */;
+			targetProxy = CE8280491933D70600A7B8FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE8280351933D70600A7B8FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8280361933D70600A7B8FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE82804E1933D70600A7B8FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE82804F1933D70600A7B8FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE8280531933D70600A7B8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8280541933D70600A7B8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8280561933D70600A7B8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Portugues Facil/Portugues Facil-Prefix.pch";
+				INFOPLIST_FILE = "Portugues Facil/Portugues Facil-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE8280571933D70600A7B8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Portugues Facil/Portugues Facil-Prefix.pch";
+				INFOPLIST_FILE = "Portugues Facil/Portugues Facil-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE8280591933D70600A7B8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Portugues Facil.app/Portugues Facil";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Portugues Facil/Portugues Facil-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Portugues FacilTests/Portugues FacilTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CE82805A1933D70600A7B8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Portugues Facil.app/Portugues Facil";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Portugues Facil/Portugues Facil-Prefix.pch";
+				INFOPLIST_FILE = "Portugues FacilTests/Portugues FacilTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8280241933D70600A7B8FD /* Build configuration list for PBXProject "Portugues Facil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8280531933D70600A7B8FD /* Debug */,
+				CE8280541933D70600A7B8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8280551933D70600A7B8FD /* Build configuration list for PBXNativeTarget "Portugues Facil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8280561933D70600A7B8FD /* Debug */,
+				CE8280571933D70600A7B8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE8280581933D70600A7B8FD /* Build configuration list for PBXNativeTarget "Portugues FacilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8280591933D70600A7B8FD /* Debug */,
+				CE82805A1933D70600A7B8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8280211933D70600A7B8FD /* Project object */;
+}
