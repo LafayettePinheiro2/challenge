@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF303539193500BD0073243D /* ClasseB.m in Sources */ = {isa = PBXBuildFile; fileRef = BF303538193500BD0073243D /* ClasseB.m */; };
 		CE82802D1933D70600A7B8FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE82802C1933D70600A7B8FD /* Foundation.framework */; };
 		CE82802F1933D70600A7B8FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE82802E1933D70600A7B8FD /* CoreGraphics.framework */; };
 		CE8280311933D70600A7B8FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8280301933D70600A7B8FD /* UIKit.framework */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF303537193500BD0073243D /* ClasseB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClasseB.h; sourceTree = "<group>"; };
+		BF303538193500BD0073243D /* ClasseB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClasseB.m; sourceTree = "<group>"; };
 		CE8280291933D70600A7B8FD /* Portugues Facil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Portugues Facil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE82802C1933D70600A7B8FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE82802E1933D70600A7B8FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,6 +83,8 @@
 		CE8280201933D70600A7B8FD = {
 			isa = PBXGroup;
 			children = (
+				BF303537193500BD0073243D /* ClasseB.h */,
+				BF303538193500BD0073243D /* ClasseB.m */,
 				CE8280321933D70600A7B8FD /* Portugues Facil */,
 				CE82804B1933D70600A7B8FD /* Portugues FacilTests */,
 				CE82802B1933D70600A7B8FD /* Frameworks */,
