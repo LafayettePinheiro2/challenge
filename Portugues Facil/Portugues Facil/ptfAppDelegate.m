@@ -18,6 +18,9 @@
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    
+    //ALTERACOES FEITAS POR LAFAYETTE
 
     return YES;
 }
