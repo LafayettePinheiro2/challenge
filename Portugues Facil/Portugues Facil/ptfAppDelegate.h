@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ptfViewController.m"
 
 @interface ptfAppDelegate : UIResponder <UIApplicationDelegate>
 
