@@ -21,6 +21,7 @@
 		CE8280501933D70600A7B8FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE82804E1933D70600A7B8FD /* InfoPlist.strings */; };
 		CE8280521933D70600A7B8FD /* Portugues_FacilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8280511933D70600A7B8FD /* Portugues_FacilTests.m */; };
 		CE828062193500C400A7B8FD /* ClasseA.m in Sources */ = {isa = PBXBuildFile; fileRef = CE828061193500C400A7B8FD /* ClasseA.m */; };
+		CE828065193501C300A7B8FD /* ClasseC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE828064193501C300A7B8FD /* ClasseC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		CE8280511933D70600A7B8FD /* Portugues_FacilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Portugues_FacilTests.m; sourceTree = "<group>"; };
 		CE828060193500C400A7B8FD /* ClasseA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClasseA.h; sourceTree = "<group>"; };
 		CE828061193500C400A7B8FD /* ClasseA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClasseA.m; sourceTree = "<group>"; };
+		CE828063193501C300A7B8FD /* ClasseC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClasseC.h; sourceTree = "<group>"; };
+		CE828064193501C300A7B8FD /* ClasseC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClasseC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 		CE8280201933D70600A7B8FD = {
 			isa = PBXGroup;
 			children = (
+				CE828063193501C300A7B8FD /* ClasseC.h */,
+				CE828064193501C300A7B8FD /* ClasseC.m */,
 				BF303537193500BD0073243D /* ClasseB.h */,
 				BF303538193500BD0073243D /* ClasseB.m */,
 				CE8280321933D70600A7B8FD /* Portugues Facil */,
@@ -255,7 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8280391933D70600A7B8FD /* main.m in Sources */,
+				CE828065193501C300A7B8FD /* ClasseC.m in Sources */,
 				CE828062193500C400A7B8FD /* ClasseA.m in Sources */,
+				BF303539193500BD0073243D /* ClasseB.m in Sources */,
 				CE82803D1933D70600A7B8FD /* ptfAppDelegate.m in Sources */,
 				BF30353F193501F90073243D /* ClasseD.m in Sources */,
 			);
