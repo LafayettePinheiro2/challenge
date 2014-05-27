@@ -19,6 +19,7 @@
 		CE8280481933D70600A7B8FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8280301933D70600A7B8FD /* UIKit.framework */; };
 		CE8280501933D70600A7B8FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE82804E1933D70600A7B8FD /* InfoPlist.strings */; };
 		CE8280521933D70600A7B8FD /* Portugues_FacilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8280511933D70600A7B8FD /* Portugues_FacilTests.m */; };
+		CE828062193500C400A7B8FD /* ClasseA.m in Sources */ = {isa = PBXBuildFile; fileRef = CE828061193500C400A7B8FD /* ClasseA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		CE82804D1933D70600A7B8FD /* Portugues FacilTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Portugues FacilTests-Info.plist"; sourceTree = "<group>"; };
 		CE82804F1933D70600A7B8FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE8280511933D70600A7B8FD /* Portugues_FacilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Portugues_FacilTests.m; sourceTree = "<group>"; };
+		CE828060193500C400A7B8FD /* ClasseA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClasseA.h; sourceTree = "<group>"; };
+		CE828061193500C400A7B8FD /* ClasseA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClasseA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				CE82803C1933D70600A7B8FD /* ptfAppDelegate.m */,
 				CE82803E1933D70600A7B8FD /* Images.xcassets */,
 				CE8280331933D70600A7B8FD /* Supporting Files */,
+				CE828060193500C400A7B8FD /* ClasseA.h */,
+				CE828061193500C400A7B8FD /* ClasseA.m */,
 			);
 			path = "Portugues Facil";
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8280391933D70600A7B8FD /* main.m in Sources */,
+				CE828062193500C400A7B8FD /* ClasseA.m in Sources */,
 				CE82803D1933D70600A7B8FD /* ptfAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
