@@ -1,5 +1,5 @@
 //
-//  ptfAppDelegate.h
+//  ptfViewController.h
 //  Portugues Facil
 //
 //  Created by Lafayette Pinheiro on 5/26/14.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ptfViewController.m"
 
-@interface ptfAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface ptfViewController : UIViewController
 
 @end

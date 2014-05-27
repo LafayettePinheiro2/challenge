@@ -8,14 +8,20 @@
 
 #import "ptfAppDelegate.h"
 
+
 @implementation ptfAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    
+    //ALTERACOES FEITAS POR LAFAYETTE
+
     return YES;
 }
 

@@ -19,6 +19,8 @@
 		CE8280481933D70600A7B8FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8280301933D70600A7B8FD /* UIKit.framework */; };
 		CE8280501933D70600A7B8FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE82804E1933D70600A7B8FD /* InfoPlist.strings */; };
 		CE8280521933D70600A7B8FD /* Portugues_FacilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8280511933D70600A7B8FD /* Portugues_FacilTests.m */; };
+		CE82805E1933D7FA00A7B8FD /* ptfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82805C1933D7FA00A7B8FD /* ptfViewController.m */; };
+		CE82805F1933D7FA00A7B8FD /* ptfViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE82805D1933D7FA00A7B8FD /* ptfViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		CE82804D1933D70600A7B8FD /* Portugues FacilTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Portugues FacilTests-Info.plist"; sourceTree = "<group>"; };
 		CE82804F1933D70600A7B8FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE8280511933D70600A7B8FD /* Portugues_FacilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Portugues_FacilTests.m; sourceTree = "<group>"; };
+		CE82805B1933D7FA00A7B8FD /* ptfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ptfViewController.h; sourceTree = "<group>"; };
+		CE82805C1933D7FA00A7B8FD /* ptfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ptfViewController.m; sourceTree = "<group>"; };
+		CE82805D1933D7FA00A7B8FD /* ptfViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ptfViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				CE82803C1933D70600A7B8FD /* ptfAppDelegate.m */,
 				CE82803E1933D70600A7B8FD /* Images.xcassets */,
 				CE8280331933D70600A7B8FD /* Supporting Files */,
+				CE82805B1933D7FA00A7B8FD /* ptfViewController.h */,
+				CE82805C1933D7FA00A7B8FD /* ptfViewController.m */,
+				CE82805D1933D7FA00A7B8FD /* ptfViewController.xib */,
 			);
 			path = "Portugues Facil";
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE82805F1933D7FA00A7B8FD /* ptfViewController.xib in Resources */,
 				CE8280371933D70600A7B8FD /* InfoPlist.strings in Resources */,
 				CE82803F1933D70600A7B8FD /* Images.xcassets in Resources */,
 			);
