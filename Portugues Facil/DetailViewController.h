@@ -10,6 +10,6 @@
 
 @interface DetailViewController : UIViewController
 
-- (void)updateMenuLabel:(NSString *)passedObject;
+- (void)updateDetail:(NSString *)passedValue;
 
 @end

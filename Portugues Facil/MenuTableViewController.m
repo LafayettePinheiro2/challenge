@@ -51,13 +51,14 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
+    
     cell.textLabel.text = [self.menu objectAtIndex:indexPath.row];
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self.detailViewController updateMenuLabel: [self.menu objectAtIndex:indexPath.row]];
+    [self.detailViewController updateDetail:@"Menu value"];
 }
 
 @end

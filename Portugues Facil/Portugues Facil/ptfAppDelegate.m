@@ -22,6 +22,7 @@
 
     MenuTableViewController *menu = [[MenuTableViewController alloc] initWithStyle:UITableViewStylePlain];
     UINavigationController *menuNavController = [[UINavigationController alloc] initWithRootViewController:menu];
+    [menuNavController.navigationBar setBackgroundColor:[UIColor brownColor]];
     
     DetailViewController *detail = [[DetailViewController alloc] init];
     UINavigationController *detailNavController = [[UINavigationController alloc] initWithRootViewController:detail];
