@@ -7,6 +7,8 @@
 //
 
 #import "ptfAppDelegate.h"
+#import "MenuTableViewController.h"
+#import "DetailViewController.h"
 
 
 @implementation ptfAppDelegate
@@ -14,14 +16,22 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
-    //alteracoes feitas por lafayette 2
-    //ALTERACOES FEITAS POR LAFAYETTE
 
+    MenuTableViewController *menu = [[MenuTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    UINavigationController *menuNavController = [[UINavigationController alloc] initWithRootViewController:menu];
+    
+    DetailViewController *detail = [[DetailViewController alloc] init];
+    UINavigationController *detailNavController = [[UINavigationController alloc] initWithRootViewController:detail];
+    
+    menu.detailViewController = detail;
+    
+    self.splitViewController = [[UISplitViewController alloc] init];
+    self.splitViewController.viewControllers = @[menuNavController, detailNavController];
+    self.window.rootViewController = self.splitViewController;
+    
     return YES;
 }
 
