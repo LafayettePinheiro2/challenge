@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "DetailViewController.h"
+#import "MenuCell.h"
 
 @interface MenuTableViewController : UITableViewController
 

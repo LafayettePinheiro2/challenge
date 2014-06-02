@@ -49,13 +49,16 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    NSString *cellIdentifier = @"menuCell";
+    MenuCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    if (!cell) {
+        [tableView registerNib:[UINib nibWithNibName:@"MenuCell" bundle:nil] forCellReuseIdentifier:cellIdentifier];
+        cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     }
     
-    cell.textLabel.text = [self.menu objectAtIndex:indexPath.row];
+    cell.middleLabel.text = [self.menu objectAtIndex:indexPath.row];
+    cell.leftLabel.text = [self.menu objectAtIndex:indexPath.row];
+    cell.rightLabel.text = [self.menu objectAtIndex:indexPath.row];
     
     UIView *separatorView = [[UIView alloc] initWithFrame:CGRectMake(0, cell.frame.size.height - 1, cell.frame.size.width, 1)];
     [separatorView setBackgroundColor:[UIColor lightGrayColor]];
