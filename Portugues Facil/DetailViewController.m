@@ -48,14 +48,14 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    NSString *cellIdentifier = @"detailCell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    DetailCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    if (!cell) {
+        [tableView registerNib:[UINib nibWithNibName:@"DetailCell" bundle:nil] forCellReuseIdentifier:cellIdentifier];
+        cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     }
-    cell.textLabel.text = [NSString stringWithFormat:@"Conteúdo %d", indexPath.row + 1];
-    cell.detailTextLabel.text = @"Detalhes";
+    cell.conteudoLabel.text = [NSString stringWithFormat:@"Conteúdo %d", indexPath.row + 1];
     cell.accessoryType =  UITableViewCellAccessoryDisclosureIndicator;
     
     UIView *separatorView = [[UIView alloc] initWithFrame:CGRectMake(0,cell.frame.size.height - 1, 900, 1)];
