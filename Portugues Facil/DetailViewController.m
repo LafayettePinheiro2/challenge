@@ -9,6 +9,7 @@
 #import "DetailViewController.h"
 
 @interface DetailViewController ()
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
@@ -30,6 +31,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
 }
 
 #pragma mark - Table view data source
@@ -55,6 +57,11 @@
     cell.textLabel.text = [NSString stringWithFormat:@"Conteúdo %d", indexPath.row + 1];
     cell.detailTextLabel.text = @"Detalhes";
     cell.accessoryType =  UITableViewCellAccessoryDisclosureIndicator;
+    
+    UIView *separatorView = [[UIView alloc] initWithFrame:CGRectMake(0,cell.frame.size.height - 1, 900, 1)];
+    [separatorView setBackgroundColor:[UIColor lightGrayColor]];
+    [separatorView setAlpha:0.8f];
+    [cell addSubview:separatorView];
     return cell;
 }
 

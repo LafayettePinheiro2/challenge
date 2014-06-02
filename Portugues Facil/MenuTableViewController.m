@@ -29,6 +29,9 @@
 {
     [super viewDidLoad];
     self.menu = @[@"Home", @"Simulado"];
+    [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone]; //Retira cell sem conteúdo
+    
+    
 }
 
 
@@ -46,13 +49,22 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
     cell.textLabel.text = [self.menu objectAtIndex:indexPath.row];
+    
+    UIView *separatorView = [[UIView alloc] initWithFrame:CGRectMake(0, cell.frame.size.height - 1, cell.frame.size.width, 1)];
+    [separatorView setBackgroundColor:[UIColor lightGrayColor]];
+    [separatorView setAlpha:0.8f];
+    [cell addSubview:separatorView];
+    
+    NSIndexPath *topIndexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+    [self.tableView selectRowAtIndexPath:topIndexPath animated:NO scrollPosition:UITableViewScrollPositionMiddle];
+
     return cell;
 }
 
