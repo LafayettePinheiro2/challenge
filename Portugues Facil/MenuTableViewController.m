@@ -74,6 +74,13 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [self.detailViewController updateDetail:@"Menu value"];
+//    [self.navigationController pushViewController:telaSimulado animated:YES];
+    
+    UIViewController <SubstitutableDetailViewController> *detailViewController = nil;
+    SimuladoViewController *telaSimulado = [[SimuladoViewController alloc] init];
+    detailViewController = telaSimulado;
+    NSArray *viewControllers = [[NSArray alloc] initWithObjects:self.navigationController, detailViewController, nil];
+    self.splitViewController.viewControllers = viewControllers;
 }
 
 @end

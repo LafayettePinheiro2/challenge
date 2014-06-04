@@ -9,8 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "DetailViewController.h"
 #import "MenuCell.h"
+#import "SimuladoViewController.h"
 
-@interface MenuTableViewController : UITableViewController
+@protocol SubstitutableDetailViewController
+- (void)showRootPopoverButtonItem:(UIBarButtonItem *)barButtonItem;
+- (void)invalidateRootPopoverButtonItem:(UIBarButtonItem *)barButtonItem;
+@end
+
+@interface MenuTableViewController : UITableViewController <UISplitViewControllerDelegate>
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
 
