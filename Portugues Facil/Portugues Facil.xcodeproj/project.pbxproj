@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF07E5471940ED7B00FD00E2 /* MateriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF07E5451940ED7B00FD00E2 /* MateriaViewController.m */; };
+		BF07E5481940ED7B00FD00E2 /* MateriaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF07E5461940ED7B00FD00E2 /* MateriaViewController.xib */; };
 		BF1E87DC1937C88300E8BC44 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1E87DA1937C88300E8BC44 /* MenuTableViewController.m */; };
 		BF1E87DD1937C88300E8BC44 /* MenuTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1E87DB1937C88300E8BC44 /* MenuTableViewController.xib */; };
 		BF1E87E11937C8A600E8BC44 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1E87DF1937C8A600E8BC44 /* DetailViewController.m */; };
@@ -42,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF07E5441940ED7B00FD00E2 /* MateriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MateriaViewController.h; sourceTree = "<group>"; };
+		BF07E5451940ED7B00FD00E2 /* MateriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MateriaViewController.m; sourceTree = "<group>"; };
+		BF07E5461940ED7B00FD00E2 /* MateriaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MateriaViewController.xib; sourceTree = "<group>"; };
 		BF1E87D91937C88300E8BC44 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
 		BF1E87DA1937C88300E8BC44 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 		BF1E87DB1937C88300E8BC44 /* MenuTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewController.xib; sourceTree = "<group>"; };
@@ -111,6 +116,9 @@
 				BF2F2C44193FA8F100DD3BAB /* SimuladoViewController.h */,
 				BF2F2C45193FA8F100DD3BAB /* SimuladoViewController.m */,
 				BF2F2C46193FA8F100DD3BAB /* SimuladoViewController.xib */,
+				BF07E5441940ED7B00FD00E2 /* MateriaViewController.h */,
+				BF07E5451940ED7B00FD00E2 /* MateriaViewController.m */,
+				BF07E5461940ED7B00FD00E2 /* MateriaViewController.xib */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -280,6 +288,7 @@
 				CE8280371933D70600A7B8FD /* InfoPlist.strings in Resources */,
 				BFF32935193D0C63002648ED /* DetailCell.xib in Resources */,
 				BFF32933193D088F002648ED /* MenuCell.xib in Resources */,
+				BF07E5481940ED7B00FD00E2 /* MateriaViewController.xib in Resources */,
 				BF2F2C48193FA8F100DD3BAB /* SimuladoViewController.xib in Resources */,
 				CE82803F1933D70600A7B8FD /* Images.xcassets in Resources */,
 				BF1E87E21937C8A600E8BC44 /* DetailViewController.xib in Resources */,
@@ -305,6 +314,7 @@
 				BF1E87DC1937C88300E8BC44 /* MenuTableViewController.m in Sources */,
 				BF2F2C47193FA8F100DD3BAB /* SimuladoViewController.m in Sources */,
 				BFF32938193D0C8A002648ED /* DetailCell.m in Sources */,
+				BF07E5471940ED7B00FD00E2 /* MateriaViewController.m in Sources */,
 				CE82803D1933D70600A7B8FD /* ptfAppDelegate.m in Sources */,
 				BF1E87E11937C8A600E8BC44 /* DetailViewController.m in Sources */,
 				BFF32931193D087F002648ED /* MenuCell.m in Sources */,

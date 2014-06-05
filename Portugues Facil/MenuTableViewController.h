@@ -11,11 +11,6 @@
 #import "MenuCell.h"
 #import "SimuladoViewController.h"
 
-@protocol SubstitutableDetailViewController
-- (void)showRootPopoverButtonItem:(UIBarButtonItem *)barButtonItem;
-- (void)invalidateRootPopoverButtonItem:(UIBarButtonItem *)barButtonItem;
-@end
-
 @interface MenuTableViewController : UITableViewController <UISplitViewControllerDelegate>
 
 @property (strong, nonatomic) DetailViewController *detailViewController;

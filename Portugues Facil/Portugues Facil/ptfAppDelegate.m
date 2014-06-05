@@ -30,8 +30,8 @@
     menu.detailViewController = detail;
     
     self.splitViewController = [[UISplitViewController alloc] init];
-    self.splitViewController.delegate = detail;
     self.splitViewController.viewControllers = @[menuNavController, detailNavController];
+    self.splitViewController.delegate = detail;
     self.window.rootViewController = self.splitViewController;
     
     return YES;

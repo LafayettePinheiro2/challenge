@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "DetailCell.h"
+#import "MateriaViewController.h"
+#import "SimuladoViewController.h"
 
 @interface DetailViewController : UIViewController
 
-- (void)updateDetail:(NSString *)passedValue;
+- (void)updateDetail:(int)passedValue;
 
 @end

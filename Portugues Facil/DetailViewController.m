@@ -26,8 +26,8 @@
     return self;
 }
 
--(void)updateDetail:(NSString *)passedValue{
-    NSLog(@"%@", passedValue);
+-(void)updateDetail:(int)passedValue{
+
 }
 
 - (void)viewDidLoad
@@ -69,7 +69,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    MateriaViewController *telaMateria = [[MateriaViewController alloc] init];
+    [self.navigationController pushViewController:telaMateria animated:YES];
 }
 
 #pragma mark - Split view

@@ -73,13 +73,23 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self.detailViewController updateDetail:@"Menu value"];
-//    [self.navigationController pushViewController:telaSimulado animated:YES];
+    //    [self.detailViewController updateDetail:@"Menu value"];
+    //    [self.navigationController pushViewController:telaSimulado animated:YES];
     
-    UIViewController <SubstitutableDetailViewController> *detailViewController = nil;
-    SimuladoViewController *telaSimulado = [[SimuladoViewController alloc] init];
-    detailViewController = telaSimulado;
-    NSArray *viewControllers = [[NSArray alloc] initWithObjects:self.navigationController, detailViewController, nil];
+    UIViewController *viewDetail = nil;
+    
+    switch (indexPath.row) {
+        case 0:
+            viewDetail = [[DetailViewController alloc] init];
+            break;
+        case 1:
+            viewDetail = [[SimuladoViewController alloc] init];
+            break;
+        default:
+            break;
+    }
+    
+    NSArray *viewControllers = [[NSArray alloc] initWithObjects:self.navigationController, viewDetail, nil];
     self.splitViewController.viewControllers = viewControllers;
 }
 
